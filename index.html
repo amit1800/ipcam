@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <div style="display: flex; flex-direction: column; margin: 10px;">
+
+            <canvas id="canvas2" onclick="stop()"  style="margin: 10px;border:5px solid blue; max-width: 400;"></canvas>
+            
+            <canvas id="canvas1" onclick="stop()"  style="margin: 10px;border:5px solid blue; max-width: 400;"></canvas>
+        </div>
+          <button id="button" onclick="handleButton()">pause</button>
+  
+    </body>
+  
+    <script type="text/javascript" src="jsmpeg.min.js"></script>
+    <script type="text/javascript" src="src/index.js"></script>
+    </html>
+
+<!-- <html>
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+
+<script type="text/javascript" src="jsmpeg.min.js"></script>
+<script type="text/javascript">
+    player = new JSMpeg.Player('ws://localhost:9999', {
+      canvas: document.getElementById('canvas') // Canvas should be a canvas DOM element
+    })	
+</script>
+</html> -->
